@@ -42,12 +42,12 @@ class Billet:
         """
         Args:
             id (dict): exemple: {'id':2}
-            metadata (json): _description_
+            metadata (json): exemple: {'notification_url': "http://yourdomain.com"}
 
         Returns:
-            _type_: _description_
+            dict
         """
-        return gn.update_charge_metadata(params=dict, body=metadata)
+        return self.gn.update_charge_metadata(params=id, body=metadata)
 
 
 if __name__ == "__main__":
