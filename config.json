@@ -1,0 +1,8 @@
+{
+    "client_id": "Client_Id_33dc379a70a777d852600c6b000592269b62147d",
+    "client_secret": "Client_Secret_0655765a150b46a3fb40d11a930efd9a941aed5f",
+    "certificate": "C:/Users/gabri/OneDrive/Área de Trabalho/imoPayments/certs/homologacao.pem",
+    "sandbox": true,
+    "debug": false,
+    "timeout": 30
+}
